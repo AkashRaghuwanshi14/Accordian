@@ -1,0 +1,45 @@
+
+.wrapper{
+    display:flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.wrapper button{
+    padding: 10px 20px;
+    background-color: #614106;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+
+.accordian{
+  width: 500px;
+}
+
+.item{
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+  
+   color: wheat;
+   cursor: pointer;
+}
+
+.content{
+    background-color: #614106;
+    margin-bottom: 10px;
+    padding: 10px 20px ;
+}
+
+.answer{
+    color: white;
+}
